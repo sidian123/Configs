@@ -17,7 +17,7 @@ export typora_home="$Win10_Home/Program Files/Typora"
 # 取消ls高亮,改用后缀方式
 alias ls="ls --file-type"
 # 配置ll
-alias ll="ls -l --file-type"
+alias ll="ls -al --file-type"
 # 打开当前目录
 alias open='explorer.exe .'
 # 方便连接服务器
