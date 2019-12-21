@@ -1,7 +1,7 @@
 # 环境变量
 export user=sidian #用户名
 export home=/mnt/c/Users/$user #设置Windows家目录的环境变量
-export HOME=$home # 同上
+export HOME=$home # 当cd时,可直接跳转到Windows家目录 
 export hosts_home=/mnt/c/Windows/System32/drivers/etc # 配置hosts环境变量
 export notes=$home/Documents/blogs/sidian123/notes # 笔记路径 
 export PATH=/home/$USER/bin:$PATH # 将wsl家目录中的bin/目录加入到环境变量中
