@@ -4,7 +4,6 @@ export USER=$(whoami) #用户名
 export Win_Home=/c # windows家目录
 
 export notes=$HOME/Documents/blogs/sidian123/notes # 笔记路径
-export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64 # Java
 export typora_home="$Win_Home/Program Files/Typora" # typora
 
 # 取消ls高亮,改用后缀方式
