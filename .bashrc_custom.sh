@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # 环境变量
-export USER=sidian #用户名
+export USER=$(whoami) #用户名
 export Win_Home=/c # windows家目录
 
 export notes=$HOME/Documents/blogs/sidian123/notes # 笔记路径
