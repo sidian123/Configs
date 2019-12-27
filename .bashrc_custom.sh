@@ -5,6 +5,7 @@ export Win_Home=/c # windows家目录
 
 export notes=$HOME/Documents/blogs/sidian123/notes # 笔记路径
 export typora_home="$Win_Home/Program Files/Typora" # typora
+export client_home="$HOME/Software/blog-client"
 
 # 取消ls高亮,改用后缀方式
 alias ls="ls --file-type"
@@ -34,3 +35,5 @@ function push () {
   git add . && git commit -m "$comment"
   git push
 }
+# 方便打开blog-client日志
+alias client-log="tail -n 500 -f $client_home/log/client.log"
