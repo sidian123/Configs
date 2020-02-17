@@ -6,6 +6,7 @@ export Win_Home=/c # windows家目录
 export notes=$HOME/Documents/blogs/sidian123/notes # 笔记路径
 export typora_home="$Win_Home/Program Files/Typora" # typora
 export client_home="$HOME/Software/blog-client"
+export PATH="$HOME/bin/":$PATH # PATH
 
 # 取消ls高亮,改用后缀方式
 alias ls="ls --file-type"
