@@ -22,7 +22,7 @@ alias proxy-hk='ssh -D 1025 root@hk.sidian.live'
 alias lf-sh='ssh -L 1025:localhost:1024 root@sh.sidian.live' # local forward to sh
 # 方便使用typora
 function typora () {
-  "$typora_home/bin/typora.exe" "$*" >/dev/null 2>&1 &
+  "$typora_home/typora.exe" "$*" >/dev/null 2>&1 &
 }
 # 方便push
 function push () {
